@@ -1,4 +1,4 @@
-package day2.entity.src;
+package Day1.Basics;
 
 public class Customer {
 		private  int cid;
@@ -32,7 +32,7 @@ public class Customer {
 
 		@Override
 		public String toString() {
-			return "Customer [cid=" + cid + ", cname=" + cname + ", ccity=" + ccity + "]";
+			return "Customer id=" + cid + ",  name=" + cname + ", city=" + ccity;
 		}
 		
 	
