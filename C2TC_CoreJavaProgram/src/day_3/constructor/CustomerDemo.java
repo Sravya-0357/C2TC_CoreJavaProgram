@@ -1,4 +1,4 @@
-package Day3;
+package day_3.constructor;
 
 public class CustomerDemo {
 
@@ -8,6 +8,8 @@ public class CustomerDemo {
 		System.out.println(c1);
 		Customer c2 = new Customer(102,"harshi","ongole");
 		System.out.println(c2);
+		Customer c3 = new Customer("S","no");
+		System.out.println(c3);
 	}
 
 }

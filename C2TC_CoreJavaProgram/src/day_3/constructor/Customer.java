@@ -1,4 +1,4 @@
-package Day3;
+package day_3.constructor;
 
 public class Customer {
 
@@ -17,6 +17,12 @@ public class Customer {
 		public Customer(int cid, String name, String city)
 		{
 			this.cid=cid;
+			this.name=name;
+			this.city=city;
+		}
+		public Customer(String name, String city)
+		{
+			
 			this.name=name;
 			this.city=city;
 		}
