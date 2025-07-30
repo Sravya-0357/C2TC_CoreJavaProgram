@@ -1,4 +1,4 @@
-package Payment;
+package Day9.Payment;
 
 public class TicketBooking {
 	
